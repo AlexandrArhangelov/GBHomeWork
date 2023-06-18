@@ -8,7 +8,7 @@
 int GetNumber(string text)
 {
 System.Console.Write(text);
-string value = Console.ReadLine();
+var value = Console.ReadLine();
 int result = Convert.ToInt32(value);
 return result;
 }
